@@ -17,7 +17,7 @@ $request_headers   = array();
 $request_headers[] = 'Cache-Control:no-cache';
 $request_headers[] = 'Content-Type: application/json;charset=UTF-8';
 $request_headers[] = 'User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:52.0) Gecko/20100101 Firefox/52.0';
-$url               = 'https://api-obs-sandbox.kmt.orange.com/mysql.php/db/oqt/tables/requests';
+$url               = 'http://api-obs-demo-vstn3330.kermit.itn.intraorange/mysql.php/db/oqt/tables/requests';
 
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
 curl_setopt($ch, CURLOPT_FOLLOWLOCATION, false);
